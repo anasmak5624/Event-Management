@@ -2,8 +2,8 @@ USE EVENT_MANAGEMENT;
 create table subEvent(
  id varchar(349) NOT NULL,
  event_id varchar(349) NOT NULL,
- createAt TIMESTAMP,
- modifiedAt TIMESTAMP,
+ createAt varchar(349) NOT NULL,
+ modifiedAt varchar(349) NOT NULL,
  createBy varchar(200) NOT NULL,
  modifiedBy varchar(200) NOT NULL,
  subevent_title varchar(200) NOT NULL,
